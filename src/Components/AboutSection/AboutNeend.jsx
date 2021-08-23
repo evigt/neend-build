@@ -1,3 +1,4 @@
+import React from 'react';
 import neend from '../../images/Neend.png';
 import fb from '../../images/facebook.svg';
 import linkedin from '../../images/linkedin.svg';
@@ -17,7 +18,7 @@ const About = () => {
       <div id="aboutSection" className="container">
         <div className="row">
           <div className="col-lg-6">
-            <img src={neend} style={{ marginLeft: '4%' }} />
+            <img src={neend} alt="neend" style={{ marginLeft: '4%' }} />
             <h1 id="neend">NEEND</h1>
             <p id="textfiler">
               The Neend app is India’s only free sleep app in our regional
@@ -37,17 +38,37 @@ const About = () => {
             </p>
             <div id="inline">
               <p id="follow-up">Follow us on:</p>
-              <a id="social" href=" https://www.facebook.com/achchi.neend">
-                <img id="social" src={fb} />
+              <a
+                id="social"
+                href=" https://www.facebook.com/achchi.neend"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img id="social" alt="facebook" src={fb} />
               </a>
-              <a id="social" href="https://in.linkedin.com/company/neend">
-                <img id="social" src={linkedin} />
+              <a
+                id="social"
+                href="https://in.linkedin.com/company/neend"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img id="social" alt="linkedin" src={linkedin} />
               </a>
-              <a id="social" href=" https://www.instagram.com/achchi.neend/">
-                <img id="social" src={insta} />
+              <a
+                id="social"
+                href=" https://www.instagram.com/achchi.neend/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img id="social" alt="insta" src={insta} />
               </a>
-              <a id="social" href=" https://twitter.com/achchineend">
-                <img id="social" src={twitter} />
+              <a
+                id="social"
+                href=" https://twitter.com/achchineend"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img id="social" alt="twitter" src={twitter} />
               </a>
             </div>
           </div>
@@ -59,12 +80,17 @@ const About = () => {
             <div id="inline">
               <a
                 href="https://play.google.com/store/apps/details?id=com.neend&utm_source=website"
-                target="_blank"
                 rel="noreferrer"
+                target="_blank"
               >
-                <img id="playS" src={Google} />
+                <img id="playS" src={Google} alt="google" />
               </a>
-              <img id="playS" style={{ marginLeft: '4%' }} src={Apple} />
+              <img
+                id="playS"
+                style={{ marginLeft: '4%' }}
+                src={Apple}
+                alt="alt"
+              />
             </div>
             <p id="downloadTextsec">Subscribe on</p>
             <a
@@ -73,7 +99,7 @@ const About = () => {
               rel="noreferrer"
             >
               {' '}
-              <img id="youtubr" src={Youtube} />
+              <img id="youtubr" src={Youtube} alt="youtube" />
             </a>
             <p id="downloadTextthird">Listen us on:</p>
             <div id="inlines">
@@ -83,7 +109,7 @@ const About = () => {
                 target="_blank"
               >
                 {' '}
-                <img id="spot" src={spotify} />{' '}
+                <img id="spot" src={spotify} alt="spotify" />{' '}
               </a>
               <a
                 id="space"
@@ -91,14 +117,14 @@ const About = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img id="spot" src={saavn} />
+                <img id="spot" src={saavn} alt="saavn" />
               </a>
               <a
                 id="space"
                 href=" https://gaana.com/podcast/neend-sleep-stories-for-adults-in-hindi-season-3"
                 target="_blank"
               >
-                <img id="spot" src={Gana} />
+                <img id="spot" src={Gana} alt="gaana" />
               </a>
             </div>
           </div>
