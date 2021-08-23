@@ -1,227 +1,215 @@
-html{
+html {
   font-size: 62.5%;
 }
-#inner{
-  border: 1px solid #7F6ECC;
-  border-radius: .8rem;
+#inner {
+  border: 1px solid #7f6ecc;
+  border-radius: 0.8rem;
   margin-top: 12.5rem;
-  Width :110rem;
-  Height:34rem;
+  width: 110rem;
+  height: 34rem;
   padding-top: 4.8rem;
 }
-    #space{
-      margin-right: 3%;
-    }
-    
-    #smile{
-      width: 14.6rem;
-      height: 15rem;
-      margin-top:.8rem;
-      margin-left: .8rem;
-    }
-    .card{
-      margin-left: 3.3rem;
-      margin-bottom: 5.8rem;
-      height: 20.7rem;
-      font-family: 'Lato', sans-serif;
-      font-style: normal;
-      font-size: 1.4rem;
-      line-height: 1.68rem;
-      width: 16.3rem;
-      color:#FFFFFF;
-      background: #937DE2;
-      border-radius: 1rem; 
-      -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-    
-    }
-    #allign{
-   
-      position: relative;
-     margin-left: 15%;
-    }
-  
-    .card-text:last-child {
-      margin-bottom: -2rem;
-  }
-  .Needlogo{
-    font-family: 'Lato', sans-serif;
-    margin-top: 0.3rem;
-font-style: normal;
-font-weight: bold;
-font-size: 2rem;
-line-height: 2.2rem;
-color: #FFFFFF;
-  }
-  .subscriber{
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.2rem;
-    line-height: 2.2rem;
-    /* identical to box height, or 183% */
-    
-    
-    color: #FFFFFF;
-  }
-  .SubscibeOption{
-    display: flex;
-    flex-direction: row;
-    justify-content:safe;
-  }
-  
-  #para{
-    font-family: 'Lato', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 1.6rem;
-line-height: 1.8rem;
-color: #FFFFFF;
-
-  }
-
-  #btnstl{
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2rem;
-    line-height: 2.4rem;
-    /* identical to box height, or 120% */
-    
-    background: #03164C;
-    color: #FFFFFF;
-    border-radius: 4px;
-    border-color: #FFFFFF;
-    padding: 1.3rem 3.5rem 1.4rem 3.5rem;
-  }
-  #inlines{
-    display: flex;
-    flex-direction: row;
+#space {
+  margin-right: 3%;
 }
-@media screen and (max-width:900px){
-  html{
-    font-size:55%;
+
+#smile {
+  width: 14.6rem;
+  height: 15rem;
+  margin-top: 0.8rem;
+  margin-left: 0.8rem;
+}
+.card {
+  margin-left: 3.3rem;
+  margin-bottom: 5.8rem;
+  height: 20.7rem;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 1.68rem;
+  width: 16.3rem;
+  color: #ffffff;
+  background: #937de2;
+  border-radius: 1rem;
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+#allign {
+  position: relative;
+  margin-left: 15%;
+}
+
+.card-text:last-child {
+  margin-bottom: -2rem;
+}
+.Needlogo {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0.3rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.2rem;
+  color: #ffffff;
+}
+.subscriber {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+  /* identical to box height, or 183% */
+
+  color: #ffffff;
+}
+.SubscibeOption {
+  display: flex;
+  flex-direction: row;
+  justify-content: safe;
+}
+
+#para {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  color: #ffffff;
+}
+
+#btnstl {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  /* identical to box height, or 120% */
+
+  background: #03164c;
+  color: #ffffff;
+  border-radius: 4px;
+  border-color: #ffffff;
+  padding: 1.3rem 3.5rem 1.4rem 3.5rem;
+}
+#inlines {
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 55%;
   }
-  .col-lg-2{
+  .col-lg-2 {
     margin-right: 5.5rem !important;
   }
-  .container{
+  .container {
     margin-top: 1.5rem !important;
   }
-  #inner{
+  #inner {
     border: none;
     margin-top: 5rem !important;
-    padding-top:0;
+    padding-top: 0;
     display: inline;
-
   }
-  #space{
-    margin-right: 3% ;
-    
+  #space {
+    margin-right: 3%;
   }
-  #smile{
+  #smile {
     height: 97.3px;
     width: 89.77px;
     margin-left: 4px;
     margin-right: 0;
     margin-top: 4px;
   }
-  
-  .card{
+
+  .card {
     width: 100px;
     height: 142.27px;
     margin-left: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
-  .col-lg-5{
+  .col-lg-5 {
     border-radius: 8px;
     width: 47.9rem;
     margin-left: 2rem;
     padding-left: 2rem;
-}
-.SubscibeOption{
-  margin-top:1.6rem;
-}
-#allign {
-  position: relative;
-  margin-left: 18%;
-  margin-top: 8px;
-}
-#para{
-  margin-top: 2rem;
+  }
+  .SubscibeOption {
+    margin-top: 1.6rem;
+  }
+  #allign {
+    position: relative;
+    margin-left: 18%;
+    margin-top: 8px;
+  }
+  #para {
+    margin-top: 2rem;
     margin-bottom: 2rem;
-}
-#inlines{
-  margin-bottom: 3rem;
-}
-#nrow{
-  justify-content: space-around;
+  }
+  #inlines {
+    margin-bottom: 3rem;
+  }
+  #nrow {
+    justify-content: space-around;
+  }
 }
 
-}
-
-  @media screen and (max-width :700px) {
-  html{
+@media screen and (max-width: 700px) {
+  html {
     font-size: 55% !important;
-    
   }
   /* .col-lg-2{
     margin-left: 2rem !important;
   } */
-  .container{
+  .container {
     margin-top: 1.5rem !important;
   }
-  #inner{
+  #inner {
     border: none;
     margin-top: 5rem !important;
-    padding-top:0;
+    padding-top: 0;
     display: inline;
-
   }
-  #space{
-    margin-right: 3% ;
-    
+  #space {
+    margin-right: 3%;
   }
-  #smile{
+  #smile {
     height: 97.3px;
     width: 89.77px;
     margin-left: 4px;
     margin-right: 0;
     margin-top: 4px;
   }
-  
-  .card{
+
+  .card {
     width: 100px;
     height: 142.27px;
     margin-left: 0;
-    margin-bottom: 0; 
+    margin-bottom: 0;
   }
-  .col-lg-5{
-    border-bottom: 1px solid #7F6ECC;
-    border-top: 1px solid #7F6ECC;
-  margin-top: 7.45rem;
+  .col-lg-5 {
+    border-bottom: 1px solid #7f6ecc;
+    border-top: 1px solid #7f6ecc;
+    margin-top: 7.45rem;
     border-radius: 8px;
     margin-left: 1.5rem;
     padding-left: 2rem;
-}
-.SubscibeOption{
-  margin-top:1.6rem;
-}
-#allign {
-  position: relative;
-  margin-left: 18%;
-  margin-top: 8px;
-}
-#para{
-  margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-#inlines{
-  margin-bottom: 3rem;
-}
-#nrow{
-  justify-content: space-around;
-}
-
-  
   }
- 
+  .SubscibeOption {
+    margin-top: 1.6rem;
+  }
+  #allign {
+    position: relative;
+    margin-left: 18%;
+    margin-top: 8px;
+  }
+  #para {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  #inlines {
+    margin-bottom: 3rem;
+  }
+  #nrow {
+    justify-content: space-around;
+  }
+}

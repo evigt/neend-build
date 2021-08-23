@@ -1,185 +1,181 @@
-html{
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
-.carousel-item{
-    height: 445px;
+.carousel-item {
+  height: 445px;
 }
-#Testimonial{
-    background-image: url('../../images//lines.png');
-    background-position: bottom;
-    background-repeat: no-repeat;
+#Testimonial {
+  background-image: url('../../images//lines.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}
+#review {
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3.2rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 4.7rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 3%;
+}
+#TestimonailContent {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 2.6rem;
+
+  color: #ffffff;
+}
+#name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+}
+#names {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+}
+.column {
+  margin-top: 17%;
+}
+.marginB {
+  position: relative;
+  top: 67px;
+}
+.marginD {
+  position: relative;
+  top: 145px;
+}
+.margin {
+  position: relative;
+  top: 120px;
+}
+#lady {
+  width: 21.3rem;
+  height: 22.7rem;
+  border-radius: 0.8rem;
+  position: relative;
+  top: -27.1rem;
+  margin-left: 16%;
+  transform: rotate(-10deg);
+}
+#lgf {
+  margin-top: 4%;
+  padding-left: 4%;
+}
+#lgs {
+  padding-left: 1%;
+}
+#Rectangle {
+  transform: rotate(-1deg);
+  background: #7f6ecc;
+  opacity: 0.35;
+  border-radius: 0.8rem;
+  width: 15.8rem;
+  height: 31.9rem;
+  margin-top: -14%;
+  margin-left: 24%;
+}
+#frame {
+  position: relative;
+  top: -516px;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 45% !important;
+  }
+  #Rectangle {
+    width: 10.3rem;
+    height: 20.8rem;
+    position: relative;
+    top: 54px;
+    left: 38px;
+  }
+  #lady {
+    width: 13.3rem;
+    height: 15.3rem;
+    left: -130px;
+    top: 15px;
+  }
+  #frame {
+    width: 13.5rem;
+    height: 15.5rem;
+    top: -90px;
+    margin-left: 28%;
+  }
+  .column {
     margin-top: 5%;
+  }
+  .marginD {
+    margin-top: 8rem;
+    top: 0;
+    padding-left: 18rem;
+  }
+  .marginB {
+    top: 0;
+    padding-left: 18rem;
+    margin-top: 1rem;
+  }
+  .margin {
+    top: 0;
+    padding-left: 18rem;
+    margin-top: 6rem;
+  }
 }
-#review{
-    font-family: 'Merriweather',sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 3.2rem;
-    line-height: 3.6rem;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-   margin-bottom:4.7rem;
-   text-align: center;
-   color: #FFFFFF;
-   margin-bottom: 3%;
-}
-#TestimonailContent{
-    font-family: 'Lato',sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 2rem;
-line-height: 2.6rem;
-
-color: #FFFFFF;
-
-}
-#name{
-    font-family: Lato;
-font-style: normal;
-font-weight: bold;
-font-size: 1.6rem;
-line-height: 2.6rem;
-color: #FFFFFF;
-}
-#names{
-    font-family: Lato;
-font-style: normal;
-font-weight: 400;
-font-size: 1.6rem;
-line-height: 2.6rem;
-color: #FFFFFF;
-}
-.column{
-margin-top: 17%;
-}
-.marginB{
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 45% !important;
+  }
+  #Rectangle {
+    width: 10.3rem;
+    height: 20.8rem;
     position: relative;
-    top:67px;
+    top: 54px;
+    left: 38px;
+  }
+  #lady {
+    width: 13.3rem;
+    height: 15.3rem;
+    left: -102px;
+    top: 31px;
+  }
+  #frame {
+    width: 13.5rem;
+    height: 15.5rem;
+    top: -80px;
+    margin-left: 33%;
+  }
+  .column {
+    margin-top: 1%;
+  }
+  .marginD {
+    margin-top: 8rem;
+    top: 0;
+    padding-left: 18rem;
+  }
+  .marginB {
+    top: 0;
+    padding-left: 18rem;
+    margin-top: 1rem;
+  }
+  .margin {
+    top: 0;
+    padding-left: 18rem;
+    margin-top: 6rem;
+  }
 }
-.marginD{
-    position: relative;
-    top: 145px;
-}
-.margin{
-    position: relative;
-    top: 120px;
-}
-#lady{
-    width: 21.3rem;
-    height: 22.7rem;
-    border-radius: 0.8rem;
-    position: relative;
-    top:-27.1rem;
-    margin-left: 16%;
-    transform: rotate(-10deg);
-   
-}
-#lgf{
-    margin-top: 4%;
-    padding-left: 4%;
-}
-#lgs{
-    padding-left: 1%;
-}
-#Rectangle{
-    transform: rotate(-1deg);
-    background: #7F6ECC;
-opacity: 0.35;
-border-radius: 0.8rem;
-width: 15.8rem;
-height: 31.9rem;
-margin-top: -14%;
-margin-left: 24%;
-}
-#frame{
-    position: relative;
-    top: -516px;
-    margin-left: 10%;
-}
-
-    @media screen and (max-width:900px) {
-        html{
-            font-size: 45% !important;
-    }
-     #Rectangle{
-        width: 10.3rem;
-        height: 20.8rem;
-        position: relative;
-        top: 54px;
-        left: 38px;
-    }
-    #lady{
-       width: 13.3rem;
-       height: 15.3rem;
-       left: -130px;
-        top: 15px;
-    }
-    #frame{
-        width: 13.5rem;
-        height: 15.5rem;
-        top: -90px;
-        margin-left: 28%;
-    }
-    .column{
-        margin-top: 5%;
-        }
-        .marginD{
-            margin-top: 8rem;
-            top: 0;
-            padding-left: 18rem;
-    }
-    .marginB{
-       top: 0;
-       padding-left: 18rem;
-       margin-top: 1rem;
-    }
-    .margin{
-        top: 0;
-       padding-left: 18rem;
-       margin-top: 6rem;
-    }
-        }
-        @media screen and (max-width:700px) {
-            html{
-                font-size: 45% !important;
-        }
-         #Rectangle{
-            width: 10.3rem;
-            height: 20.8rem;
-            position: relative;
-            top: 54px;
-            left: 38px;
-        }
-        #lady{
-            width: 13.3rem;
-            height: 15.3rem;
-            left: -102px;
-             top: 31px;
-         }
-        #frame{
-            width: 13.5rem;
-            height: 15.5rem;
-            top: -80px;
-            margin-left: 33%;
-        }
-        .column{
-            margin-top: 1%;
-            }
-            .marginD{
-                margin-top: 8rem;
-                top: 0;
-                padding-left: 18rem;
-        }
-        .marginB{
-           top: 0;
-           padding-left: 18rem;
-           margin-top: 1rem;
-        }
-        .margin{
-            top: 0;
-           padding-left: 18rem;
-           margin-top: 6rem;
-        }
-    }
-    
-    

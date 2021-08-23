@@ -1,9 +1,9 @@
-import {Dimensions} from 'react-native';
-import {isEmptyString} from './common.utils';
+import { Dimensions } from 'react-native';
+import { isEmptyString } from './common.utils';
 const windowWidth = Dimensions.get('window').width;
 export const scaleFactor = windowWidth / 1440;
 export const scaledValue = (value = 0) => value * scaleFactor;
-const hashStr = str => {
+const hashStr = (str) => {
   let hash = 0;
   for (let i = 0; i < str.length; i += 1) {
     hash += str.charCodeAt(i);
