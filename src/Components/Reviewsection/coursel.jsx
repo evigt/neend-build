@@ -30,7 +30,7 @@ const Coursel = () => {
                         </h1>
                         <div className="margin">
                           <p id="name">-Randeep </p>
-                          <p id="names">Software Engineer</p>
+                          <p id="names">Assitant Lawyer</p>
                         </div>
                       </div>
                     </div>
@@ -57,7 +57,7 @@ const Coursel = () => {
                         </h1>
                         <div className="marginD">
                           <p id="name">-Kavya</p>
-                          <p id="names">Assitant Lawyer</p>
+                          <p id="names">Software Engineer</p>
                         </div>
                       </div>
                     </div>
