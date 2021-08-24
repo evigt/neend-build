@@ -1,11 +1,9 @@
 import React from 'react';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import man from '../../images/Photo 1.png';
-import men from '../../images/Photo 2.png';
-import girl from '../../images/Photo 3.png';
-import rectangle from '../../images/Rectangle.png';
-import frame from '../../images/frame.png';
 import '../Reviewsection/Review.css';
+import sir from '../../images/sir.png';
+import ast from '../../images/ast.png';
+import en from '../../images/er.png';
 
 const Coursel = () => {
   return (
@@ -19,9 +17,7 @@ const Coursel = () => {
                 <div className="col-lg-10 mx-auto">
                   <div className="row">
                     <div id="lgf" className="col-lg-4">
-                      <img id="Rectangle" src={rectangle} />
-                      <img id="lady" src={men} />
-                      <img id="frame" src={frame} />
+                      <img id="imgs" src={ast} alt=".." />
                     </div>
                     <div id="lgs" className="col-lg-6 ">
                       <div className="column">
@@ -49,9 +45,7 @@ const Coursel = () => {
                 <div className="col-lg-10 mx-auto">
                   <div className="row">
                     <div id="lgf" className="col-lg-4">
-                      <img id="Rectangle" src={rectangle} />
-                      <img id="lady" src={man} />
-                      <img id="frame" src={frame} />
+                      <img id="imgs" src={sir} alt=".." />
                     </div>
                     <div id="lgs" className="col-lg-6 ">
                       <div className="column">
@@ -78,9 +72,7 @@ const Coursel = () => {
                 <div className="col-lg-10 mx-auto">
                   <div className="row">
                     <div id="lgf" className="col-lg-4">
-                      <img id="Rectangle" src={rectangle} />
-                      <img id="lady" src={girl} />
-                      <img id="frame" src={frame} />
+                      <img id="imgs" src={en} alt=".." />
                     </div>
                     <div id="lgs" className="col-lg-6">
                       <div className="column">

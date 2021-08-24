@@ -1,97 +1,103 @@
-#text {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3rem;
-  line-height: 3.6rem;
-  letter-spacing: 1px;
-  color: #ffffff;
-  text-transform: uppercase;
-  margin-left: 1rem;
+#text{
+   font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    letter-spacing: 1px;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-left: 1rem;
+  
+  }
+  #fmobile{
+    display: none;
+  }
+  #avail{
+   font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+    color:  #F8E71C;
+    ;
+  }
+  #avails{
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: 1.5px;
+    color:  #F8E71C;
+  }
+  #mobile{
+    height: 49rem;
+    position: relative;
+    width: 26rem;
+    left: -35px;
+    bottom: 31px;
+  }
+  #span{
+    font-family:  Merriweather ;
+    font-weight: 700;
+    font-style: normal;
+    size: 3rem;
+    line-height: 3.6rem;
+    color: #F8E71C;
+  
+  }
+  #btnwidth{
+    margin-left: -2%;
+  }
+  #play{
+    margin-top: -2%;
+    height: 4.7rem;
+    width: 15.2rem;
 }
-#fmobile {
-  display: none;
-}
-#avail {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  letter-spacing: 1.5px;
-  color: #f8e71c;
-}
-#avails {
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 1.4rem;
-  letter-spacing: 1.5px;
-  color: #f8e71c;
-}
-#mobile {
-  height: 49rem;
-  position: relative;
-  width: 26rem;
-  left: -35px;
-  bottom: 31px;
-}
-#span {
-  font-family: Merriweather;
-  font-weight: 700;
-  font-style: normal;
-  size: 3rem;
-  line-height: 3.6rem;
-  color: #f8e71c;
-}
-#btnwidth {
-  margin-left: -2%;
-}
-#play {
-  margin-top: -2%;
-  height: 4.7rem;
-  width: 15.2rem;
-}
+  
+  #body{
+    position: relative;
+    right: -36px;
+    top: -406px;
+    height: 437px;
+    width: 248px;
+  }
+  
 
-#body {
-  position: relative;
-  right: -36px;
-  top: -406px;
-  height: 437px;
-  width: 248px;
-}
-
-@media screen and (max-width: 1000px) {
-  html {
+@media screen and (max-width :1000px) {
+  html{
     font-size: 45%;
   }
-  #text {
+  #text{
     text-align: center;
   }
 
-  #fmobile {
-    display: block;
-    height: 40rem;
-    margin-left: 16rem;
-    width: 23rem;
-  }
-  #mobile {
-    display: none;
-  }
-  #avial {
-    letter-spacing: 1px;
-  }
-
-  #btnwidth {
-    margin-left: -14%;
-  }
-  #avails {
-    letter-spacing: 1px;
-  }
-
-  #body {
-    display: none;
-  }
-  #playstoreButton {
-    justify-content: center;
-  }
+  
+#fmobile{
+ display: block;
+   height: 40rem;
+   margin-left: 16rem;
+   width: 23rem;
 }
+#mobile{
+ display: none;
+}
+#avial{
+ letter-spacing: 1px;
+}
+
+#btnwidth{
+ margin-left: -14%;
+}
+#avails{
+ letter-spacing: 1px;
+}
+
+#body{
+ display:none;
+}
+#playstoreButton{
+   justify-content: center;
+}
+}
+

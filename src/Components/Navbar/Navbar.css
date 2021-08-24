@@ -1,15 +1,17 @@
-html {
+html{
   font-size: 62.5%;
 }
-#logo {
-  width: 7.2rem;
-  height: 7.2rem;
-}
-#content {
-  display: inline !important;
-}
-#hindi {
-  margin: 1% !important;
+#logo{
+    width: 7.2rem;
+    height: 7.2rem;
+    
+    
+  }
+  #content{
+    display: inline !important;
+  }
+  #hindi{
+    margin:1% !important;
   display: inline;
   height: 1.6rem;
   font-family: 'Lato', sans-serif;
@@ -17,26 +19,27 @@ html {
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  color: #ffffff;
-}
-#english {
-  margin-left: 1% !important;
-  display: inline;
-  height: 1.7rem;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-  text-align: center;
-  color: #f8e71c;
-}
-@media (max-width: 998px) {
-  html {
-    font-size: 55%;
+  color: #FFFFFF;
   }
-}
-@media (max-width: 768px) {
-  html {
-    font-size: 45%;
+  #english{
+    margin-left:1% !important;
+    display:inline;
+    height: 1.7rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    text-align: center;
+    color: #F8E71C;
   }
-}
+  @media(max-width:998px){
+    html{
+      font-size: 55%;
+    }
+  }
+  @media(max-width:768px)
+  {
+    html{
+      font-size: 45%;
+    }
+  }

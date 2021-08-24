@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className="container">
         <p id="footer">
-          <img style={{ marginBottom: '3px' }} src={copy} /> Neend{' '}
+          <img style={{ marginBottom: '3px' }} src={copy} alt="copy" /> Neend{' '}
           <span>{year}</span>. All Rights Reserved.
         </p>
       </div>

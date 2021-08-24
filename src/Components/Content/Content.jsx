@@ -1,7 +1,6 @@
 import Apple from '../../images/appStore.svg';
 import Google from '../../images/google.png';
 import mobile from '../../images/mobile.png';
-import ReactAudioPlayer from 'react-audio-player';
 import '../Content/Content.css';
 
 const CenterText = () => {
@@ -34,15 +33,14 @@ const CenterText = () => {
                       <a
                         href="https://play.google.com/store/apps/details?id=com.neend&utm_source=website"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <img id="play" src={Google} alt="playstore" />
                       </a>
                     </div>
                     <div id="btnwidth" className="col-lg-4 col-6">
-                      <p id="avails">Comming soon</p>
-                      <a href="">
-                        <img id="play" src={Apple} alt="AppStore" />
-                      </a>
+                      <p id="avails">Coming soon</p>
+                      <img id="play" src={Apple} alt="AppStore" />
                     </div>
                   </div>
                 </div>
