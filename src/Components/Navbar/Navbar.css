@@ -14,14 +14,14 @@ html{
     margin:1% !important;
   display: inline;
   height: 1.6rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', 'sans-seri';
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.6rem;
-  color: #FFFFFF;
   }
   #english{
+    font-family: 'Lato', 'sans-seri';
     margin-left:1% !important;
     display:inline;
     height: 1.7rem;
@@ -30,7 +30,6 @@ html{
     font-size: 1.4rem;
     line-height: 1.7rem;
     text-align: center;
-    color: #F8E71C;
   }
   @media(max-width:998px){
     html{

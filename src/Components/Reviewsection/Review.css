@@ -4,6 +4,9 @@ html{
 .carousel-item{
     height: 445px;
 }
+.carousel-indicators{
+    margin-bottom: -1.2rem !important;
+}
 #Testimonial{
     background-image: url('../../images//lines.png');
     background-position: bottom;
@@ -29,7 +32,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 2rem;
 line-height: 2.6rem;
-
+letter-spacing: 2px;
 color: #FFFFFF;
 
 }
@@ -169,6 +172,9 @@ margin-left: 24%;
         top: 0;
        padding-left: 18rem;
        margin-top: 6rem;
+    }
+    #TestimonailContent{
+       text-align: center;
     }
         }
        
