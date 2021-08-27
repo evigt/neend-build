@@ -54,3 +54,11 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+@media  screen and (max-width:900px) {
+  .switch{
+    margin-left: 0%;
+  }
+  .slider:before {
+    bottom: -2.5px;
+  }
+}

@@ -72,10 +72,11 @@ color: #FFFFFF;
   #para{
     font-family: 'Lato', sans-serif;
 font-style: normal;
-font-weight: bold;
+word-spacing: 4px;
 font-size: 1.6rem;
 line-height: 1.8rem;
 color: #FFFFFF;
+
 
   }
 
