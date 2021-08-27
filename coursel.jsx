@@ -1,0 +1,99 @@
+import React from 'react';
+import { Carousel, CarouselItem } from 'react-bootstrap';
+import '../Reviewsection/Review.css';
+import sir from '../../images/sir.png';
+import ast from '../../images/ast.png';
+import en from '../../images/er.png';
+import { useTranslation } from 'react-i18next';
+
+const Coursel = () => {
+  const { t } = useTranslation();
+  return (
+    <>
+      <div id="Testimonial" className="container">
+        <h1 id="review">{t('REVIEWS')}</h1>
+        <Carousel>
+          <Carousel.Item>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-10 mx-auto">
+                  <div className="row">
+                    <div id="lgf" className="col-lg-4">
+                      <img id="imgs" src={ast} alt="..." />
+                    </div>
+                    <div id="lgs" className="col-lg-6">
+                      <div className="column">
+                        <h1 id="TestimonailContent">
+                          {t(
+                            'I used to spend a lot of my evening hours surfing the web, but when I stumbled upon the Neend YouTube channel, and decided to give it a try. I could not help, but download the app and use it regularly. It has a very nice and in-depth description of the scenery. Also, I loved the fact that it was narrated in my native language.'
+                          )}
+                        </h1>
+                        <div className="marginB">
+                          <p id="name">-Rahul</p>
+                          <p id="names">Software Engineer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </Carousel.Item>
+          <CarouselItem>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-10 mx-auto">
+                  <div className="row">
+                    <div id="lgf" className="col-lg-4">
+                      <img id="imgs" src={en} alt="..." />
+                    </div>
+                    <div id="lgs" className="col-lg-6">
+                      <div className="column">
+                        <h1 id="TestimonailContent">
+                          {t(
+                            ' I was dependent on sleeping pills for a long time, one fine night my Insomnia led me to the Neend app. Since then I put on a story and fall into a deep slumber. Thanking my lucky stars that I found my NEEND.'
+                          )}
+                        </h1>
+                        <div className="margin">
+                          <p id="name">-Tanya</p>
+                          <p id="names">House wife</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+          <CarouselItem>
+            <div className="container">
+              <div className="row">
+                <div className="col-lg-10 mx-auto">
+                  <div className="row">
+                    <div id="lgf" className="col-lg-4">
+                      <img id="imgs" src={sir} alt="..." />
+                    </div>
+                    <div id="lgs" className="col-lg-6 ">
+                      <div className="column">
+                        <h1 id="TestimonailContent">
+                          {t(
+                            'I have never made it to the end of any story!!! You guys are doing a fabulous job. It helps me tame my overactive mind at night and have better sleep'
+                          )}
+                        </h1>
+                        <div className="marginD">
+                          <p id="name">-Kavya</p>
+                          <p id="names">Entrepreneur</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </CarouselItem>
+        </Carousel>
+      </div>
+    </>
+  );
+};
+export default Coursel;
