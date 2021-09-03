@@ -1,3 +1,4 @@
+import React from 'react';
 import '../Footer/Footer.css';
 import copy from '../../images/copy.svg';
 const year = new Date().getFullYear();

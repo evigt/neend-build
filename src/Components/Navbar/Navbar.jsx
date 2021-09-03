@@ -40,9 +40,9 @@ const Navbar = () => {
                                 <h1 style={{color:Englishcolor}} id="hindi">English</h1>
                             </div>
                             <div className="col-md-4 col-4">
-                                <label class="switch">
+                                <label className="switch">
                                     <input onClick={TextChanger} type="checkbox" value={lang}/>
-                                    <span   class="slider round">
+                                    <span   className="slider round">
                                     </span>
                                 </label>
                             </div>

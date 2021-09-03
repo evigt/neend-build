@@ -1,4 +1,4 @@
-
+import React from 'react';
 import Apple from '../../images/appStore.svg';
 import Google from '../../images/google.png';
 import mobile from '../../images/mobile.png';

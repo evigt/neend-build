@@ -1,3 +1,4 @@
+import React from 'react';
 import smile from '../../images/smiling.png';
 import camel from '../../images/camel.png';
 import man from '../../images/man.png';
@@ -17,26 +18,26 @@ const Albums = () => {
                         <div  className="col-lg-12">
                     _    <div id="nrow" className="row">
                         <div className="col-lg-2  col-2">
-                            <div class="card">
-                                <img id="smile" src={smile} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p id="albumText" class="card-text">{t('Learn how to sleep better?')}</p>
+                            <div className="card">
+                                <img id="smile" src={smile} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p id="albumText" className="card-text">{t('Learn how to sleep better?')}</p>
                                 </div>
                             </div>
                             </div>
                             <div className="col-lg-2  col-2">
-                            <div class="card">
-                                <img id="smile" src={camel} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p id="albumText" class="card-text">{t('Registhan')}</p>
+                            <div className="card">
+                                <img id="smile" src={camel} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p id="albumText" className="card-text">{t('Registhan')}</p>
                                 </div>
                             </div>
                             </div>
                             <div className="col-lg-2  col-2">
-                            <div class="card">
-                                <img id="smile" src={man} class="card-img-top" alt="..." />
-                                <div class="card-body">
-                                    <p id="albumText" class="card-text">{t(' Eidgaah by Munshi Premchand ')}</p>
+                            <div className="card">
+                                <img id="smile" src={man} className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <p id="albumText" className="card-text">{t(' Eidgaah by Munshi Premchand ')}</p>
                                 </div>
                             </div>
                             </div>

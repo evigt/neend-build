@@ -1,3 +1,4 @@
+import React from 'react';
 import neend from '../../images/Neend.png';
 import fb from '../../images/facebook.svg';
 import linkedin from '../../images/linkedin.svg';
